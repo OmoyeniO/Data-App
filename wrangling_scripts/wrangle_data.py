@@ -1,6 +1,9 @@
 import pandas as pd
 import plotly.graph_objs as go
 
+df = pd.read_csv('/Users/omoyeniogundipe/Library/Mobile Documents/com~apple~CloudDocs/school /Udacity nanodegree/workspace/Fortune 1000 Companies by Revenue.csv')
+
+print(df)
 # Use this file to read in your data and prepare the plotly visualizations. The path to the data files are in
 # `data/file_name.csv`
 
