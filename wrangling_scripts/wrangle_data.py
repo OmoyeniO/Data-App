@@ -1,8 +1,12 @@
 import pandas as pd
 import plotly.graph_objs as go
+import plotly.express as px
 
-df = pd.read_csv('/Users/omoyeniogundipe/Library/Mobile Documents/com~apple~CloudDocs/school /Udacity nanodegree/workspace/Fortune 1000 Companies by Revenue.csv')
 
+df = pd.read_csv('/Users/omoyeniogundipe/Library/Mobile Documents/com~apple~CloudDocs/school /Udacity nanodegree/workspace/Cleaned_Fortune_data.csv')
+data_top10 = df.head(10)
+# fig = px.bar(data_canada, x='year', y='pop')
+# fig.show()
 # Use this file to read in your data and prepare the plotly visualizations. The path to the data files are in
 # `data/file_name.csv`
 
@@ -23,8 +27,8 @@ def return_figures():
     graph_one = []    
     graph_one.append(
       go.Scatter(
-      x = [0, 1, 2, 3, 4, 5],
-      y = [0, 2, 4, 6, 8, 10],
+      x = data_top10['name '],
+      y = data_top10 ['revenues '],
       mode = 'lines'
       )
     )
@@ -39,14 +43,14 @@ def return_figures():
 
     graph_two.append(
       go.Bar(
-      x = ['a', 'b', 'c', 'd', 'e'],
-      y = [12, 9, 7, 5, 1],
+      x = data_top10['name '],
+      y = data_top10 ['revenues '],
       )
     )
 
     layout_two = dict(title = 'Chart Two',
-                xaxis = dict(title = 'x-axis label',),
-                yaxis = dict(title = 'y-axis label'),
+                xaxis = dict(title = 'Companies',),
+                yaxis = dict(title = 'Revenue'),
                 )
 
 
