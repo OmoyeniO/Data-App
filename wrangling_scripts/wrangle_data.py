@@ -1,3 +1,4 @@
+from turtle import color
 import pandas as pd
 import plotly.graph_objs as go
 import plotly.express as px
@@ -26,16 +27,16 @@ def return_figures():
     
     graph_one = []    
     graph_one.append(
-      go.Scatter(
+      go.Bar(
       x = data_top10['name '],
-      y = data_top10 ['revenues '],
-      mode = 'lines'
+      y = data_top10 ['revenue_percent_change'],
+      
       )
     )
 
-    layout_one = dict(title = 'Chart One',
-                xaxis = dict(title = 'x-axis label'),
-                yaxis = dict(title = 'y-axis label'),
+    layout_one = dict(title = 'Revenue Percent Change',
+                xaxis = dict(title = 'Revenue Percent change'),
+                yaxis = dict(title = 'Companies'),
                 )
 
 # second chart plots ararble land for 2015 as a bar chart    
@@ -48,7 +49,7 @@ def return_figures():
       )
     )
 
-    layout_two = dict(title = 'Chart Two',
+    layout_two = dict(title = 'Revenue by companies',
                 xaxis = dict(title = 'Companies',),
                 yaxis = dict(title = 'Revenue'),
                 )
@@ -57,12 +58,14 @@ def return_figures():
 # third chart plots percent of population that is rural from 1990 to 2015
     graph_three = []
     graph_three.append(
-      go.Scatter(
-      x = [5, 4, 3, 2, 1, 0],
-      y = [0, 2, 4, 6, 8, 10],
-      mode = 'lines'
+       go.Scatter(
+      x = [20, 40, 60, 80],
+      y = [10, 20, 30, 40],
+      mode = 'markers'
       )
     )
+      # px.pie(df, values='profits ', names='name ', title='Profits of companies')
+      # )
 
     layout_three = dict(title = 'Chart Three',
                 xaxis = dict(title = 'x-axis label'),
