@@ -1,8 +1,8 @@
 from turtle import color
 import pandas as pd
 import plotly.graph_objs as go
-import plotly.express as px
-import tkinter as TK
+
+
 
 df = pd.read_csv('/Users/omoyeniogundipe/Library/Mobile Documents/com~apple~CloudDocs/school /Udacity nanodegree/workspace/Cleaned_Fortune_data.csv')
 data_top10 = df.head(10)
