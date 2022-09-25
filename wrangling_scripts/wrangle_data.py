@@ -10,6 +10,7 @@ data_top10 = df.head(10)
 # Use this file to read in your data and prepare the plotly visualizations. The path to the data files are in
 # `data/file_name.csv`
 
+
 def return_figures():
     """Creates four plotly visualizations
 
