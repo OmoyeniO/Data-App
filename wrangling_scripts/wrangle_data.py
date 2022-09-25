@@ -3,7 +3,7 @@ import plotly.graph_objs as go
 
 
 
-df = pd.read_csv('/Users/omoyeniogundipe/Library/Mobile Documents/com~apple~CloudDocs/school /Udacity nanodegree/workspace/Cleaned_Fortune_data.csv')
+df = pd.read_csv('./Cleaned_Fortune_data.csv')
 data_top10 = df.head(10)
 # fig = px.bar(data_canada, x='year', y='pop')
 # fig.show()
