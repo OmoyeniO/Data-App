@@ -17,7 +17,7 @@ The web data aplication can be used for graphical data visualizaion.
 For this project, we are visualizing Top Fortune 1000 companies; their revenue and percentage of profit change.
 The goal is to showcase key software development skills
 
-`Omoyeni Ogundipe`, `Web Data Application`
+`Omoyeni Ogundipe`  `Web Data Application`
 
 
 
