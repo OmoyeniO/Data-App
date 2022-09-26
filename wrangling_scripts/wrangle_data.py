@@ -35,8 +35,8 @@ def return_figures():
     )
 
     layout_one = dict(title = 'Revenue Percent Change',
-                xaxis = dict(title = 'Revenue Percent change'),
-                yaxis = dict(title = 'Companies'),
+                xaxis = dict(title = 'Companies'),
+                yaxis = dict(title = 'Revenue Percent change'),
                 )
 
 # second chart plots ararble land for 2015 as a bar chart    
