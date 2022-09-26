@@ -5,7 +5,7 @@
 <!-- PROJECT LOGO -->
 <br />
   <a href="https://github.com/OmoyeniO/Data-App--Template">
-    <img src="https://github.com/OmoyeniO/Data-App/blob/master/Screenshot%202022-09-26%20at%201.35.20%20AM.png?raw=true" alt="Logo" width="800" height="300">
+    <img src="https://github.com/OmoyeniO/Data-App/blob/master/Screenshot%202022-09-26%20at%201.35.20%20AM.png?raw=true" alt="Logo" width="700" height="400">
   </a>
 
 
@@ -34,7 +34,7 @@ It contains 1 csv file of Fortune 1000 companies by Revenue 2022
 ### Prerequisites
 
 * [Python3](https://www.python.org/downloads/)
-* [Flask](https://flask.palletsprojects.com/en/2.2.x/_
+* [Flask](https://flask.palletsprojects.com/en/2.2.x/)
 * [Bootstrap](https://getbootstrap.com/)
 * [Plotly](https://plotly.com/python/getting-started/)
 * [NumPy](http://www.numpy.org/)
