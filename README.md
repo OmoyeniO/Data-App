@@ -2,6 +2,14 @@
 
 
 
+<!-- PROJECT LOGO -->
+<br />
+  <a href="https://github.com/OmoyeniO/Data-App--Template">
+    <img src="https://github.com/OmoyeniO/Data-App/blob/master/Screenshot%202022-09-26%20at%201.35.20%20AM.png?raw=true" alt="Logo" width="800" height="300">
+  </a>
+
+
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
