@@ -41,6 +41,16 @@ It contains 1 csv file of Fortune 1000 companies by Revenue 2022
 * [Pandas](http://pandas.pydata.org/)
 
 
+### Deployment
+
+* [Heroku](https://www.heroku.com/)
+
+
+
+
+### [DataApp](https://yeni-data-app.herokuapp.com/)
+
+
 
 
 <!-- CONTRIBUTING -->
